@@ -1,0 +1,125 @@
+
+
+html {
+    font-size: 68.5%;
+}
+
+body {
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Century Gothic';  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    margin: 1.2rem;
+  
+    font-size: 2.5rem;
+    animation: slide 3s ease-in;
+}
+#logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 35px;
+   
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:  black;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 5px solid #e0072f;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 1.2rem;
+ 
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+#nav>a:hover {
+    color: red;
+}
+
+#gallery {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.box {
+    margin: 1.3rem;
+    height: 28rem;
+    width: 32rem;
+    justify-content: space-around;
+ 
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.box:hover>img {
+    transform: scale(1.5);
+   
+}
+.box>img {
+    height: 100%;
+    width: 100%;
+    image-rendering: optimizeSpeed;
+  
+}
+
+.titles {
+    font-size: 4rem;
+    color: white;
+    padding: 5rem;
+    font-weight: 600;
+}
+@media screen and (max-width: 480px) {
+    .box{
+        width:100%;
+    }
+}
+
+
+.jumbotron {
+    text-align: center;
+    padding: 20px;
+    margin: 10px 0;
+  }
+
+  .gallery {
+    padding: 40px;
+  }
+
+  .gallery img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+  }
+
+  @media screen and (min-width: 780px) {
+    .carousel-item{
+      height: 650px; 
+      width: 60% !important;
+       margin:auto;
+    }
+  }

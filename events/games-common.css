@@ -1,0 +1,10 @@
+@font-face{
+  font-family:Avengeance Heroic Avenger;
+  src:url("/TheEvent/fonts/AVENGEANCE\ HEROIC\ AVENGER\ BI.ttf") format('truetype');
+} 
+.font-cls {
+  
+  font-family: "Avengeance Heroic Avenger";
+  letter-spacing: 4px;
+  
+}
